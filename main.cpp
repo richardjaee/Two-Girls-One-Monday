@@ -100,7 +100,7 @@ int main()
     
     bool month = 0; //set to 1 if simulating birth month instead of birth day
     
-    generateEvent(parents, month, parNum); //generates 1000000 couples
+    generateEvent(parents, month, parNum); //generates simulations
     
     long double twogirls = 0.0;
     long double gbirth = 0.0;
